@@ -14,7 +14,7 @@ const OurTeam = () => {
             <div className="team-members">
               <div className="team-member">
                 <img src={memberMehran} alt="Dr Mehran Bolourian Kashi" className="team-photo" />
-                <h3>Dr Mehran Bolourian Kashi, Phd</h3>
+                <h3>Mehran Bolourian Kashi, Phd</h3>
                 <p>Co-Founder</p>
                 <p>
                 Mehran is the Co-founder of Senoptix and as well as an accomplished professional with a strong background in analytics, material science and technology innovation. 
@@ -26,7 +26,7 @@ const OurTeam = () => {
               </div>
               <div className="team-member">
                 <img src={memberParisa} alt="Dr Parisa Sowti" className="team-photo" />
-                <h3>Dr Parisa Sowti, Phd</h3>
+                <h3>Parisa Sowti, Phd</h3>
                 <p>Co-Founder</p>
                 <p>
                 Parisa is the visionary and Co-founder of Senoptix. With a PhD in Chemistry from the University of New South Wales, Parisa brings extensive expertise in electrochemistry, biosensors, and nanotechnology through her publications on surface plasmon based biosensor. Her innovative leadership and commitment to advancing sensor technology drive Senoptix's mission to revolutionize the field of electrochemical sensing.
