@@ -1,6 +1,6 @@
 import React from 'react';
 import './OurTechnology.css';
-
+import gif from '../assets/diagram.gif'
 const OurTechnology = () => {
 return (
         <div>
@@ -8,6 +8,8 @@ return (
         <section id="tech1">
         <h2>Senoptix Light-activated Electrochemistry</h2>
         <p>Details about Senoptix Light-activated Electrochemistry...</p>
+        <p>How it works</p>
+        <img src={gif} alt="Light-activated Electrochemistry GIF" />
         </section>
         <section id="tech2">
         <h2>Aptamers</h2>
