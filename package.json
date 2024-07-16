@@ -2,7 +2,7 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ajah0ng.github.io/",
+  "homepage": "https://ajah0ng.github.io/senoptix/",
   "type": "module",
   "scripts": {
     "dev": "vite",
