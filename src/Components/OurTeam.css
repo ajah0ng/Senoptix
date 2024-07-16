@@ -1,0 +1,70 @@
+/* OurTeam.css */
+.our-team-section {
+        padding: 50px 20px;
+        background-color: #f4f4f4;
+        text-align: center;
+      }
+      
+      .our-team-section h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+      }
+
+      .summary-section {
+        background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+        color: #333;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 8px;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      
+      .team-members {
+        display: flex;
+        justify-content: center;
+        gap: 10rem;
+      }
+      
+      .team-member {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+        max-width: 500px;
+      }
+      
+      .team-photo {
+        width: 500px; 
+        height: 500px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 3rem;
+      }
+      
+      .team-member h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      .team-member p {
+        font-size: 1rem;
+        color: #555;
+        margin-bottom: 1rem;
+      }
+      
+      .linkedin-link {
+        display: inline-block;
+        color: #0077b5;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.3s;
+      }
+      
+      .linkedin-link:hover {
+        color: #005582;
+      }
+      

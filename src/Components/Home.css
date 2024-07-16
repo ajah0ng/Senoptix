@@ -1,0 +1,55 @@
+.home-section {
+        position: relative;
+        height: 80vh;
+        width: 100%;
+        background-image: url('../assets/cover-image.jpeg'); 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      
+      .logo {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        width: 1000px;
+        height: auto;
+      }
+
+      .slogan {
+        font-size: 2rem; 
+        font-weight: bold;
+      }
+
+
+.summary-section {
+        background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+        color: #333;
+        padding: 2rem;
+        margin: 2rem auto;
+        border-radius: 8px;
+        max-width: 800px;
+        text-align: center;
+      }
+      
+      .summary-section h2 {
+        font-size: 1.5rem;
+        margin-top: 0;
+      }
+      
+      .summary-section p {
+        font-size: 1rem;
+        margin: 1rem 0;
+      }
+      
+      .read-more {
+        color: #007BFF;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      
+      .read-more:hover {
+        text-decoration: underline;
+      }
+
