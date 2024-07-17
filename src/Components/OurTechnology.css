@@ -25,6 +25,13 @@
   line-height: 1.6;
 }
 
+.small-image {
+  width: 500px; /* Adjust the width as needed */
+  height: auto; /* This will maintain the aspect ratio */
+  display: block;
+  margin: 0 auto;
+}
+
 hr.faint-divider {
   border: none;
   border-top: 1px solid #ddd;

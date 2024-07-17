@@ -1,6 +1,7 @@
 import React from 'react';
 import './OurTechnology.css';
 import gif from '../assets/diagram.gif';
+import components_photo from '../assets/components.png';
 
 const OurTechnology = () => {
   return (
@@ -12,16 +13,15 @@ const OurTechnology = () => {
             <h2 className="subsection-title">Senoptix Light-activated Electrochemistry</h2>
             <p className="subsection-text">
             At the core, Senoptix’s advanced light-activated electrochemistry technology leverages the power of high-density electrode arrays to provide accurate and reliable sensing applications. 
-
-            Through shining a light across the electrode, and attaching biorecognition elements to the board, results are calibrated yielding electrochemically quantitative signals. By illuminated the area with a light pointer, Senoptix’s technology allows for the detection of multiple markers in one sample, rapidly and concurrently. 
-
+            Through shining a light across the electrode, and attaching biorecognition elements to the silicon elecrode, results are calibrated yielding electrochemically quantitative signals. By illuminated the area with a light pointer, Senoptix’s technology allows for the detection of multiple markers in one sample, rapidly and concurrently. 
             This technology is a game-changer in the field of biosensing, offering unprecedented sensitivity and specificity.
-
-            The final product of Senoptix comprises three main components, the device that houses the electronics, optics and fluidics, an insertable electrode that is modified to the therapy area of interest, and the analysis software and user interface.
-
             </p>
           </div>
           <img src={gif} alt="Light-activated electrochemistry diagram" className='medium-gif' />
+          <p className="subsection-text">
+            The final product of Senoptix comprises three main components, the device that houses the electronics, optics and fluidics, an insertable electrode that is modified to the therapy area of interest, and the analysis software and user interface.
+          </p>
+          <img src={components_photo} alt="components breakdown" className='small-image' />
           <hr className="faint-divider" />
         </div>
         
@@ -29,9 +29,8 @@ const OurTechnology = () => {
           <div className="subsection-content">
             <h2 className="subsection-title">Aptamers</h2>
             <p className="subsection-text">
-              Aptamers are single-stranded DNA or RNA molecules that can bind to specific targets with high affinity and 
-              specificity. They play a crucial role in our sensing technology, enhancing the detection capabilities of 
-              our devices.
+            Aptamers are short, single-stranded DNA or RNA (ssDNA or ssRNA) molecules that can selectively bind to a specific target, including proteins, peptides, carbohydrates, small molecules, toxins, and even live cells. 
+            Making a rise in the market, the application of aptamers for biosensing techniques offer high performance in selectivity and selectivity and production in comparison to antibodies. By modifying our silicon electrode with specific aptamers tailored for the specific therapy area alongside our novel light-activated technology this enhances the sensing abilities of our technology.
             </p>
           </div>
         </div>
