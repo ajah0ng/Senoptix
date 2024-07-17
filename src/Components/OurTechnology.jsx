@@ -11,9 +11,14 @@ const OurTechnology = () => {
           <div className="subsection-content">
             <h2 className="subsection-title">Senoptix Light-activated Electrochemistry</h2>
             <p className="subsection-text">
-              Our advanced light-activated electrochemistry technology leverages the power of high-density electrode arrays 
-              to provide accurate and reliable sensing applications. This technology is a game-changer in the field of 
-              biosensing, offering unprecedented sensitivity and specificity.
+            At the core, Senoptix’s advanced light-activated electrochemistry technology leverages the power of high-density electrode arrays to provide accurate and reliable sensing applications. 
+
+            Through shining a light across the electrode, and attaching biorecognition elements to the board, results are calibrated yielding electrochemically quantitative signals. By illuminated the area with a light pointer, Senoptix’s technology allows for the detection of multiple markers in one sample, rapidly and concurrently. 
+
+            This technology is a game-changer in the field of biosensing, offering unprecedented sensitivity and specificity.
+
+            The final product of Senoptix comprises three main components, the device that houses the electronics, optics and fluidics, an insertable electrode that is modified to the therapy area of interest, and the analysis software and user interface.
+
             </p>
           </div>
           <img src={gif} alt="Light-activated electrochemistry diagram" className='medium-gif' />
